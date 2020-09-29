@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="557px" height="57px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="393.5" y1="136.5" x2="120" y2="136.5" id="LinearGradient4">
+      <stop id="Stop5" stop-color="#ffaa46" stop-opacity="0.996078431372549" offset="0" />
+      <stop id="Stop6" stop-color="#fb9f33" stop-opacity="0.996078431372549" offset="0.11" />
+    </linearGradient>
+    <filter x="118px" y="113px" width="557px" height="57px" filterUnits="userSpaceOnUse" id="filter7">
+      <feOffset dx="3" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget8">
+      <path d="M 120.5 118  A 4.5 4.5 0 0 1 125 113.5 L 662 113.5  A 4.5 4.5 0 0 1 666.5 118 L 666.5 155  A 4.5 4.5 0 0 1 662 159.5 L 125 159.5  A 4.5 4.5 0 0 1 120.5 155 L 120.5 118  Z " fill-rule="nonzero" fill="url(#LinearGradient4)" stroke="none" />
+      <path d="M 120.5 118  A 4.5 4.5 0 0 1 125 113.5 L 662 113.5  A 4.5 4.5 0 0 1 666.5 118 L 666.5 155  A 4.5 4.5 0 0 1 662 159.5 L 125 159.5  A 4.5 4.5 0 0 1 120.5 155 L 120.5 118  Z " stroke-width="1" stroke="#797979" fill="none" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -118 -113 )">
+    <use xlink:href="#widget8" filter="url(#filter7)" />
+    <use xlink:href="#widget8" />
+  </g>
+</svg>
